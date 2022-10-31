@@ -78,10 +78,10 @@ disqusShortname   = "eliasbenaddouidrissi-com"
 [[languages.en.menu.main]]
   name = "Projects"
   weight = 2
-  url = "projects/"
+  url = "posts/"
 
 [[languages.en.menu.main]]
-  name = "Substack"
+  name = "Blog"
   weight = 3
-  url = "https://eliasbenaddouidrissi.substack.com/"
+  url = "https://eliasbenaddouidrissi.substack.com"
 
