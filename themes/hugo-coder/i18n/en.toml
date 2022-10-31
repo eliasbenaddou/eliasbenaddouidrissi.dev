@@ -15,7 +15,10 @@ one = "author"
 other = "authors"
 
 [posts]
-other = "posts"
+other = "Projects"
+
+[blogs]
+other = "Modern Data Engineering"
 
 [reading_time]
 one = "One-minute read"

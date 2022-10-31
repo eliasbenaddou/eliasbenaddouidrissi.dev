@@ -62,10 +62,9 @@ disqusShortname   = "eliasbenaddouidrissi-com"
 
 [[params.social]]
   name = "Substack"
-  icon = "fa fa-2x fa-pen"
+  icon = ""
   weight = 3
   url = "https://eliasbenaddouidrissi.substack.com/"
-
 
 [languages.en]
   languageName = ":uk:"
@@ -76,12 +75,13 @@ disqusShortname   = "eliasbenaddouidrissi-com"
   url = "about/"
 
 [[languages.en.menu.main]]
-  name = "Projects"
+  name = "Blog"
   weight = 2
-  url = "posts/"
+  url = "blog"
 
 [[languages.en.menu.main]]
-  name = "Blog"
+  name = "Projects"
   weight = 3
-  url = "https://eliasbenaddouidrissi.substack.com"
+  url = "posts/"
+
 

@@ -9,9 +9,11 @@
       </li>
     {{ else }}
       <li>
-        <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }}>{{ .name }}</a>
+        <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}"{{ end }} {{ if .target }}target="{{ .target }}"{{ end }}>    <iconify-icon icon="simple-icons:substack" width="32" height="25"></iconify-icon>
+        </a>
       </li>
     {{ end }}
   {{ end }}
 </ul>
 {{ end }}
+<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
