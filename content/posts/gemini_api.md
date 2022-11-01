@@ -3,8 +3,8 @@ title: "Interacting with Cryptocurrency Exchange Gemini's APIs"
 date: 2022-06-22
 draft: false
 slug: ""
-tags: ['crypto', 'python']
-categories: ["REST APIs"]
+tags: ['crypto', 'python', "REST APIs"]
+categories: [""]
 ---
 
 {{< figure src="/images/gemini_logo.png" caption="" width=600 >}}

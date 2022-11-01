@@ -4,7 +4,7 @@ date: 2022-05-20
 draft: false
 slug: ""
 tags: ['personal finance', 'python', 'aws', 'airflow']
-categories: ["Projects"]
+categories: []
 ---
 
 ### About
