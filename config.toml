@@ -84,4 +84,5 @@ disqusShortname   = "eliasbenaddouidrissi"
   weight = 3
   url = "posts/"
 
-
+[params.cloudflare]
+ token = "token"

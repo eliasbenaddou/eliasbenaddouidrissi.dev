@@ -4,7 +4,7 @@ date: 2022-06-22
 draft: false
 slug: ""
 tags: ['crypto', 'python']
-category: ["REST APIs"]
+categories: ["REST APIs"]
 ---
 
 {{< figure src="/images/gemini_logo.png" caption="" width=600 >}}
