@@ -164,4 +164,4 @@ Navigate to localhost:3000 to access the UI for Metabase. You will need to setup
 
 - Add in Plaid's API to allow connecting to other banks through Plaid's open banking API solution.
 
-
+Thanks for reading and please reach out via Github or Linkedin if you have any questions or suggestions!
