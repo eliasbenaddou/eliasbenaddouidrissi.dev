@@ -94,6 +94,8 @@ In the top navigation bar, go to "Clients" and select "New OAuth Client". Give i
 
 As part of the pipeline, the Airflow tasks will read and save JSON files, including a file to store your tokens to make API calls to Monzo (these are different to the Client details above and are automatically refreshed as needed). These JSON files are saved in the container's *opt/airflow* directory.
 
+To generate access and refresh tokens, run the notebook 'monzo_generate_tokens.ipynb' and follow the instructions. Save the access token, refresh token and expiry into a file called "monzo_tokens.json" in a dictionary format within the "scripts" directory as this is the directory that will be searched for tokens when the pipelines run.
+
 3) Email notifications
 
 As part of the Great Expectations implementation, you can receive email notifications for the  data quality checking pipeline by adding your email details. With Gmail accounts, you'll need to first create a Google App password at https://security.google.com/settings/security/apppasswords to avoid using your regular password or two factor authentication. Fill in your email, app password and email to receive notifications. 
