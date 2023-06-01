@@ -18,7 +18,7 @@ disqusShortname   = "eliasbenaddouidrissi"
   description = "Elias Benaddou Idrissi's personal website"
   keywords = "blog,developer,personal"
   info = ["Data Engineer"]
-  avatarURL = "images/elias_restaurant.jpg"
+  avatarURL = "images/elias_circle_crop.png"
   dateFormat = "January 2, 2006"
   since = 2022
   # Git Commit in Footer, uncomment the line below to enable it
@@ -64,7 +64,7 @@ disqusShortname   = "eliasbenaddouidrissi"
   name = "Substack"
   icon = ""
   weight = 3
-  url = "https://eliasbenaddouidrissi.substack.com/"
+  url = "https://moderndataengineering.substack.com/"
 
 [languages.en]
   languageName = ":uk:"

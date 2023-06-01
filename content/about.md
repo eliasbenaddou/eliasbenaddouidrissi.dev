@@ -1,16 +1,17 @@
 +++
 title = ""
 description = "About Elias"
-date = "2022-08-05"
 author = "Elias Benaddou Idrissi"
 +++
 
-{{< figure src="/images/elias.jpg" height=400 class="right-aligned" >}}
+My name is **Elias**. I'm a Data Engineer with five years of hands-on experience.
 
-Hello, I'm Elias. I've been working in data roles for the past 4 years, beginning as a data analyst in the credit reporting industry. I've worked with companies in the financial, ad-tech and retail sector on technical data sceince projects and I am currently a data engineer at the London Stock Exchange Group.
+An all around data guy, I've worked in various data roles within multiple industries, exploring new challenges and expanding my skill set. I'm currently working as a Data Engineer at the London Stock Exchange Group. 
 
-I hold a first class degree in physics from Queen Mary University of London and I'm interested in personal finance, blockchain technology and learning programming languages.
+I document my journey on my Substack [Modern Data Engineering](https://eliasbenaddouidrissi.substack.com), sharing insights to hopefully help others in their data endeavors.
+
+I hold a first class degree in physics from Queen Mary University of London and some of the things that keep me busy are meal prepping, personal finance, blockchain technology and learning programming languages.
 
 Technologies I use: SQL • Python • AWS • GCP • Snowflake • Airflow • Kubernetes • Docker • Jenkins • Terraform • Notion
 
-I'm documenting my journey so that I can hopefully help others - you can subscribe to my Substack [Modern Data Engineering](https://eliasbenaddouidrissi.substack.com) where i'll be writing as I'm learning.
+Want to network? [Let's chat!](https://topmate.io/eliasbenaddouidrissi)
