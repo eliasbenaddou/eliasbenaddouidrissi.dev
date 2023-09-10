@@ -1,9 +1,77 @@
 <section class="container centered">
   <div class="about">
-    {{ partialCached "home/avatar.html" . }}
+      <body>
+        <div class="avatar">
+          <img src="images/elias_circle_crop.png" alt="avatar">
+        </div>
+        <div class="header">
+          <p class="intro-text">Blog and resources for those looking to become a <a href="https://moderndataengineering.substack.com" style="color: #A87A2D;">modern data engineer</a>.</p>
+        </div>
+        <div class="container">
+          <iframe src="https://moderndataengineering.substack.com/embed" width="480" height="250"></iframe>  
+        </div>
+        <div class="header">
+          <span>Featured Articles</span>
+        </div>
+        <div class="header">
 
-    {{ partialCached "home/author.html" . }}
-
-    {{ partialCached "home/social.html" . }}
+          <ul class="horizontal-list">
+            <div class="post-container">
+                <a class="title-one" href="https://moderndataengineering.substack.com/p/breaking-into-data-engineering-as">Breaking into Data Engineering as a Self-Taught Developer</a>
+            </div>
+            <div class="post-container">
+                <a class="title-one" href="https://moderndataengineering.substack.com/p/a-guide-to-creating-your-first-data">A Guide To Creating Your First Data Engineering Project</a>
+            </div>
+            <div class="post-container">
+                <a class="title-one" href="https://moderndataengineering.substack.com/p/learning-data-engineering-in-2023">Learn Data Engineering in 2023</a>
+            </div>
+        </ul>
+        </div>
+        
+       
+        <div class="about">
+          {{ partialCached "home/social.html" . }} 
+        </div>
+        </div>
+      </body>    
+  </div> 
+  <div>
   </div>
 </section>
+
+<style>
+
+.post-container {
+    display: inline-block;
+    width: 28%; /* Adjust the width as needed to fit side by side */
+    height: 116px; /* Set the fixed height for all blocks */
+    margin-right: 10px; 
+    vertical-align: top; 
+    border-radius: 10px; /* Add rounded corners to the border */
+    padding: 30px;
+    background-color: #40404034;
+}
+
+
+iframe {
+  border: none;
+  position: sticky;
+  height: 140%;
+}
+
+.intro-text {
+  font-size: 18px; /* You can adjust the font size as needed */
+}
+
+.avatar img {
+  width: 125px; /* Set the width to your preferred size */
+  height: 125px; /* Set the height to your preferred size */
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.title-one {
+  font-size: 18px;
+}
+
+</style>

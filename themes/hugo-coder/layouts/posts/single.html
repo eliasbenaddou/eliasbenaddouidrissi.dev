@@ -3,11 +3,12 @@
 {{ end }}
 {{ define "content" }}
   <section class="container post">
+    <div id="progress-bar"></div>
     <article>
       <header>
         <div class="post-title">
           <h1 class="title">
-            <a class="title-link" href="{{ .Permalink | safeURL }}">
+            <a class="title-links" href="{{ .Permalink | safeURL }}">
               {{ .Title }}
             </a>
           </h1>
@@ -49,4 +50,41 @@
 
     {{ partial "posts/math.html" . }}
   </section>
+  <style>
+    #progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 5px; /* Adjust the height as needed */
+    background-color: #A87A2D; /* Progress bar color */
+    z-index: 1000; /* Ensure it appears above other page content */
+    transition: width 0.3s ease; /* Add a smooth transition effect */
+  }
+
+  .title-links {
+  font-size: 25px;
+}
+  </style>
+
+<script> 
+  // Get a reference to the progress-bar element
+  const progressBar = document.getElementById("progress-bar");
+  
+  // Function to update the progress bar width based on scroll position
+  function updateProgressBar() {
+    const windowHeight = window.innerHeight;
+    const pageHeight = document.body.scrollHeight - windowHeight;
+    const scrollPosition = window.scrollY;
+    const progress = (scrollPosition / pageHeight) * 100;
+    progressBar.style.width = `${progress}%`;
+  }
+  
+  // Add an event listener to update the progress bar as the user scrolls
+  window.addEventListener("scroll", updateProgressBar);
+  
+  // Initial update
+  updateProgressBar();
+</script>
 {{ end }}
+

@@ -3,7 +3,7 @@
 {{ end }}
 {{ define "content" }}
   <section class="container list">
-    <h1 class="title">
+    <h1 class="title-main">
       <a class="title-link" href="{{ .Permalink | safeURL }}">
         {{ title (i18n (lower .Title)) | default .Title }}
       </a>
@@ -17,4 +17,14 @@
 
     {{ partial "pagination.html" . }}
   </section>
+
+
+  <style>
+   /* Center-align the title in the HTML */
+   .title-main {
+     text-align: center;
+   }
+   
+   </style>
+   
 {{ end }}

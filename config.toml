@@ -1,8 +1,11 @@
 baseURL = "http://eliasbenaddouidrissi.dev"
-title = "eliasbenaddouidrissi"
+title = "elias benaddou idrissi"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
+
+[markup.highlight]
+style = "doom-one"
 
 paginate = 20
 
@@ -30,9 +33,9 @@ disqusShortname   = "eliasbenaddouidrissi"
   # "auto" (use preference set by browser)
   # "dark" (dark background, light foreground)
   # "light" (light background, dark foreground) (default)
-  colorScheme = "auto"
+  colorScheme = "dark"
   # Hide the toggle button, along with the associated vertical divider
-  hideColorSchemeToggle = false
+  hideColorSchemeToggle = true
   # Series see also post count
   maxSeeAlsoItems = 5
   # Custom CSS
@@ -75,7 +78,7 @@ disqusShortname   = "eliasbenaddouidrissi"
   url = "about/"
 
 [[languages.en.menu.main]]
-  name = "Blog"
+  name = "Data Engineering"
   weight = 2
   url = "blog"
 

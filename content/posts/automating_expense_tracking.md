@@ -5,6 +5,7 @@ draft: false
 slug: ""
 tags: ['personal finance', 'python', 'aws', 'airflow']
 categories: []
+# featuredImage: "http://localhost:1313/images/budget_tracker.png"
 ---
 
 ### About

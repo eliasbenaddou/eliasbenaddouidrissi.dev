@@ -1,4 +1,81 @@
-<li>
-  <span class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
-  <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
-</li>
+<div class="post-container">
+  <div id="progress-bar"></div>
+  <li>
+    <div class="info">
+      <a class="title" href="{{ .Permalink }}"> {{ .Title }}</a>
+      <span class="date">{{ .Date | time.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</span>
+        </div>
+  </li>
+  <p class="excerpt">{{.Summary}}</p>
+  <a class="read-more" href="{{ .Permalink }}">Read more »</a>
+</div>
+
+
+<style>
+  .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  margin-bottom: 10px;
+}
+
+.read-more {
+  display: block; /* Makes the "Read more" link a block element */
+  margin-top: 30px; /* Adds space above the "Read more" link */
+  text-align: left; /* Aligns the link to the right */
+  text-decoration: underline; /* Add underline to the text */
+  text-underline-offset: 10px; /* Adjust the value to control the space */
+  font-size: 15px; /* Change the font size to your desired value */
+}
+
+.post-container {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 5px; /* Add rounded corners to the border */
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #40404034;
+}
+
+.excerpt {
+  margin-bottom: 1px; /* Adds space between "info" and excerpt */
+  text-align: left; /* Aligns the link to the right */
+}
+
+.title-main {
+  text-align: center;
+}
+
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 5px; /* Adjust the height as needed */
+  background-color: #A87A2D; /* Progress bar color */
+  z-index: 1000; /* Ensure it appears above other page content */
+  transition: width 0.3s ease; /* Add a smooth transition effect */
+}
+
+</style>
+
+<script> 
+  // Get a reference to the progress-bar element
+  const progressBar = document.getElementById("progress-bar");
+  
+  // Function to update the progress bar width based on scroll position
+  function updateProgressBar() {
+    const windowHeight = window.innerHeight;
+    const pageHeight = document.body.scrollHeight - windowHeight;
+    const scrollPosition = window.scrollY;
+    const progress = (scrollPosition / pageHeight) * 100;
+    progressBar.style.width = `${progress}%`;
+  }
+  
+  // Add an event listener to update the progress bar as the user scrolls
+  window.addEventListener("scroll", updateProgressBar);
+  
+  // Initial update
+  updateProgressBar();
+</script>
+  
