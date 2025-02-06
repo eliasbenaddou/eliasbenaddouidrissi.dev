@@ -67,7 +67,7 @@ disqusShortname   = "eliasbenaddouidrissi"
   name = "Substack"
   icon = ""
   weight = 3
-  url = "https://moderndataengineering.substack.com/"
+  url = "https://moderndataengineer.substack.com/"
 
 [languages.en]
   languageName = ":uk:"

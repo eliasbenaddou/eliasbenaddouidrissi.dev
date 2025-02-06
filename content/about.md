@@ -4,14 +4,18 @@ description = "About Elias"
 author = "Elias Benaddou Idrissi"
 +++
 
-My name is **Elias**. I'm a Data Engineer with five years of hands-on experience working with data.
+I started working in data analytics in 2017 and transitioned into data engineering as the demand grew in the teams I worked with.
 
-I've worked in data roles within multiple industries, exploring new challenges and expanding my skill set. I'm currently working as a Data Engineer at the London Stock Exchange Group. 
+Over time, I learned from great mentors who emphasised the importance of doing things the right way—whether it’s following best practices for documentation, writing clean code, or applying thoughtful design patterns.
 
-I document my journey on my Substack [Modern Data Engineering](https://eliasbenaddouidrissi.substack.com), sharing insights to hopefully help others in their data endeavors.
+My [newsletter](https://moderndataengineer.substack.com) is my way of sharing these ideas and helping others grow in data engineering.
 
-I hold a first class degree in physics from Queen Mary University of London and some of the things that keep me busy are meal prepping, personal finance, building my second brain and learning programming languages.
+What you can expect:
 
-Technologies I use: SQL • Python • AWS • GCP • Snowflake • Airflow • Kubernetes • Docker • Jenkins • Terraform • Notion
+Actionable advice for getting into data engineering - Clear, practical guidance to help you break into the field or take your skills to the next level.
 
-Want to network? [Let's chat!](https://topmate.io/eliasbenaddouidrissi)
+Tools and frameworks to grow - From coding techniques to productivity workflows. Ideas to refine how you think, code, and build.
+
+A mix of deep dives and quick reads: In-depth explorations of key topics alongside shorter, focused content.
+
+I document my journey on my Substack [Modern Data Engineering](https://moderndataengineer.substack.com), sharing insights to hopefully help others in their data endeavors.
