@@ -2,7 +2,7 @@
 title: "Unit Testing in Data Engineering"
 date: 2024-04-21
 draft: false
-externalLink: "https://moderndataengineering.substack.com/p/unit-testing-in-data-engineering"
+externalLink: "https://moderndataengineer.substack.com/p/unit-testing-in-data-engineering"
 image: "/images/unit_test_in_de.jpg"
 ---
 

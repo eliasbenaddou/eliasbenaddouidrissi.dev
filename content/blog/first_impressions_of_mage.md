@@ -2,7 +2,7 @@
 title: "First Impressions of Mage"
 date: 2023-07-01
 draft: false
-externalLink: "https://moderndataengineering.substack.com/p/first-impressions-of-mage"
+externalLink: "https://moderndataengineer.substack.com/p/first-impressions-of-mage"
 image: "/images/budget_tracker.png"
 ---
 
