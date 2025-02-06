@@ -18,4 +18,4 @@ Tools and frameworks to grow - From coding techniques to productivity workflows.
 
 A mix of deep dives and quick reads: In-depth explorations of key topics alongside shorter, focused content.
 
-I document my journey on my Substack [Modern Data Engineering](https://moderndataengineer.substack.com), sharing insights to hopefully help others in their data endeavors.
+I document my journey on my Substack [Modern Data Engineer](https://moderndataengineer.substack.com), sharing insights to hopefully help others in their data endeavors.
